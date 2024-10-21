@@ -132,4 +132,138 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section .final-sec-part {
+  padding: 64px 45px 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section .final-sec-part h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+section .final-sec-part button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+section .final-sec {
+  padding: 0 45px 45px;
+  width: 100%;
+  display: flex;
+}
+section .final-sec .part-1 {
+  padding: 24px 24px 25px;
+  margin-right: 31px;
+  display: flex;
+  flex-direction: column;
+  width: 469px;
+  height: 400px;
+  background-image: url(./img/background.image);
+}
+section .final-sec .part-1 h2 {
+  line-height: 32px;
+  font: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 215px;
+  margin-bottom: 25px;
+}
+section .final-sec .part-1 .part-2-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+section .final-sec .part-1 .part-2-item h3 {
+  margin: 15px 5px 16px 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+  font-size: 12px;
+  color: white;
+  opacity: 50%;
+}
+section .final-sec .part-2 {
+  margin-right: 31px;
+}
+section .final-sec .part-2 .part-item-2 {
+  border-radius: 12px;
+  background-color: #f4f8ec;
+  padding: 0px 8px 0px 8px;
+  width: 80px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+section .final-sec .part-2 .part-item-2 h3 {
+  color: #6a983c;
+  font-family: "Poppins", sans-serif;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 600;
+}
+section .final-sec .part-2 h2 {
+  color: #151515;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  width: 276px;
+}
+section .final-sec .part-2 .part-2text {
+  display: flex;
+  align-items: center;
+}
+section .final-sec .part-2 .part-2text h3 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+  font-size: 12px;
+  color: black;
+  opacity: 50%;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+section .final-sec .part-3 {
+  margin-top: 10px;
+}
+section .final-sec .part-3 .part-3-items {
+  display: flex;
+  margin-bottom: 32px;
+}
+section .final-sec .part-3 .part-3-items .part-3text {
+  margin-right: 60px;
+}
+section .final-sec .part-3 .part-3-items .part-3text .part-3author {
+  display: flex;
+  flex-direction: row;
+}
+section .final-sec .part-3 .part-3-items .part-3text .part-3author h3 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+  font-size: 12px;
+  color: black;
+  opacity: 50%;
+  margin-top: 16px;
+}
+section .final-sec .part-3 .part-3-items h2 {
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 225px;
 }/*# sourceMappingURL=style.css.map */
