@@ -1,0 +1,512 @@
+// TODO: First-Section
+.bs-products {
+    width: 100%;
+    padding: 64px 45px;
+    .bs-products__container {
+        display: flex;
+        justify-content: space-between;
+        .card {
+            max-width: 268px;
+            width: 100%;
+        }
+        .bs-products__aside {
+            strong {
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 12px;
+                margin-top: 16px;
+                a {
+                    color: rgb(106, 152, 60);
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    text-decoration-line: underline;
+                }
+            }
+            button {
+                max-width: 179px;
+                width: 100%;
+                max-height: 48px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 6px;
+                margin-top: 48px;
+                padding: 6px 16px;
+                border: none;
+                border-radius: 12px;
+                background: rgb(245, 245, 245);
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 23px;
+                cursor: pointer;
+            }
+        }
+        .bs-products__card {
+            padding: 16px;
+            border: 1px solid rgb(209, 209, 209);
+            border-radius: 12px;
+            background: rgb(255, 255, 255);
+            .rectangle {
+                max-width: 237px;
+                width: 100%;
+                height: 180px;
+                border-radius: 12px;
+                background: rgb(249, 249, 249);
+                span {
+                    display: inline-block;
+                    margin: 12px 0 0 12px;
+                    padding: 0 8px;
+                    border-radius: 12px;
+                    background: rgb(244, 248, 236);
+                    color: rgb(106, 152, 60);
+                    font-family: "Poppins", sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 18px;
+                }
+            }
+            strong {
+                display: inline-block;
+                margin-top: 16px;
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 23px;
+            }
+            small {
+                display: inline-block;
+                margin-top: 4px;
+                color: rgb(87, 87, 87);
+                font-family: "Open Sans", sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+            }
+            .buy {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 16px;
+                .buy-in {
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                        color: rgb(21, 21, 21);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+                    del {
+                        color: rgb(169, 169, 169);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        // text-decoration-line: line-through;
+                    }
+                }
+                button {
+                    max-width: 90px;
+                    width: 100%;
+                    max-height: 36px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 6px 0;
+                    border: 2px solid rgb(70, 118, 10);
+                    border-radius: 12px;
+                    background: rgb(106, 152, 60);
+                    color: rgb(255, 255, 255);
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 23px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// TODO: Second-Section
+.bf-farmers {
+    width: 100%;
+    padding: 64px 45px;
+    .bf-farmers__container {
+        display: flex;
+        justify-content: space-between;
+        .card {
+            max-width: 268px;
+            width: 100%;
+        }
+        .bf-farmers__aside {
+            strong {
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                row-gap: 12px;
+                margin-top: 16px;
+                a {
+                    color: rgb(106, 152, 60);
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    text-decoration-line: underline;
+                }
+            }
+            button {
+                max-width: 179px;
+                width: 100%;
+                max-height: 48px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 6px;
+                margin-top: 48px;
+                padding: 6px 16px;
+                border: none;
+                border-radius: 12px;
+                background: rgb(245, 245, 245);
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 23px;
+                cursor: pointer;
+            }
+        }
+        .bf-farmers__card {
+            padding: 16px;
+            border: 1px solid rgb(209, 209, 209);
+            border-radius: 12px;
+            background: rgb(255, 255, 255);
+            .rectangle {
+                max-width: 237px;
+                width: 100%;
+                height: 180px;
+                border-radius: 12px;
+                background: rgb(249, 249, 249);
+                span {
+                    display: inline-block;
+                    margin: 12px 0 0 12px;
+                    padding: 0 8px;
+                    border-radius: 12px;
+                    background: rgb(244, 248, 236);
+                    color: rgb(106, 152, 60);
+                    font-family: "Poppins", sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 18px;
+                }
+            }
+            strong {
+                display: inline-block;
+                margin-top: 16px;
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 23px;
+            }
+            small {
+                display: inline-block;
+                margin-top: 4px;
+                color: rgb(87, 87, 87);
+                font-family: "Open Sans", sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+            }
+            .buy {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 16px;
+                .buy-in {
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                        color: rgb(21, 21, 21);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 27px;
+                    }
+                    del {
+                        color: rgb(169, 169, 169);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        // text-decoration-line: line-through;
+                    }
+                }
+                button {
+                    max-width: 90px;
+                    width: 100%;
+                    max-height: 36px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 6px 0;
+                    border: 2px solid rgb(70, 118, 10);
+                    border-radius: 12px;
+                    background: rgb(106, 152, 60);
+                    color: rgb(255, 255, 255);
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 23px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// TODO: Third-Section
+.oc-says {
+    width: 100%;
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    .oc-says__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        strong {
+            color: rgb(21, 21, 21);
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+        }
+        button {
+            max-width: 98px;
+            width: 100%;
+            max-height: 35px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 6px;
+            padding: 6px 12px;
+            border: none;
+            border-radius: 12px;
+            background: rgb(255, 255, 255);
+            color: rgb(21, 21, 21);
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 23px;
+            cursor: pointer;
+        }
+    }
+    .oc-says__bottom {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+        margin-top: 36px;
+        .oc-says__card {
+            max-width: 369px;
+            width: 100%;
+            height: 198px;
+            padding: 24px 0;
+            border: 1px solid rgb(241, 241, 241);
+            border-radius: 12px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                max-width: 305px;
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 23px;
+                text-align: center;
+            }
+            span {
+                display: inline-block;
+                color: rgb(169, 169, 169);
+                font-family: "Poppins", sans-serif;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18px;
+                text-align: center;
+                margin-top: 24px;
+            }
+            img {
+                position: absolute;
+                bottom: -24px;
+            }
+        }
+    }
+}
+
+// TODO: Fourth-Section
+.s-headline {
+    width: 100%;
+    padding: 64px 45px;
+    .s-headline__container {
+        .s-headline__top {
+            display: flex;
+            justify-content: space-between;
+            strong {
+                color: rgb(21, 21, 21);
+                font-family: "Poppins", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+            }
+            button {
+                max-width: 98px;
+                width: 100%;
+                max-height: 35px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 6px;
+                padding: 6px 12px;
+                border: none;
+                border-radius: 12px;
+                background: rgb(255, 255, 255);
+                color: rgb(21, 21, 21);
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 23px;
+                cursor: pointer;
+            }
+        }
+        .s-headline__bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 32px;
+            .card {
+                max-width: 268px;
+                width: 100%;
+            }
+            .s-headline__card {
+                padding: 16px;
+                border: 1px solid rgb(209, 209, 209);
+                border-radius: 12px;
+                background: rgb(255, 255, 255);
+                .rectangle {
+                    max-width: 237px;
+                    width: 100%;
+                    height: 180px;
+                    border-radius: 12px;
+                    background: rgb(249, 249, 249);
+                    span {
+                        display: inline-block;
+                        margin: 12px 0 0 12px;
+                        padding: 0 8px;
+                        border-radius: 12px;
+                        background: rgb(244, 248, 236);
+                        color: rgb(106, 152, 60);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 18px;
+                    }
+                }
+                strong {
+                    display: inline-block;
+                    margin-top: 16px;
+                    color: rgb(21, 21, 21);
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 23px;
+                }
+                small {
+                    display: inline-block;
+                    margin-top: 4px;
+                    color: rgb(87, 87, 87);
+                    font-family: "Open Sans", sans-serif;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
+                .buy {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 16px;
+                    .buy-in {
+                        display: flex;
+                        flex-direction: column;
+                        span {
+                            color: rgb(21, 21, 21);
+                            font-family: "Poppins", sans-serif;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 27px;
+                        }
+                        del {
+                            color: rgb(169, 169, 169);
+                            font-family: "Poppins", sans-serif;
+                            font-size: 12px;
+                            font-weight: 600;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            // text-decoration-line: line-through;
+                        }
+                    }
+                    button {
+                        max-width: 90px;
+                        width: 100%;
+                        max-height: 36px;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 6px 0;
+                        border: 2px solid rgb(70, 118, 10);
+                        border-radius: 12px;
+                        background: rgb(106, 152, 60);
+                        color: rgb(255, 255, 255);
+                        font-family: "Poppins", sans-serif;
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 23px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -132,4 +132,519 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.bs-products {
+  width: 100%;
+  padding: 64px 45px;
+}
+.bs-products .bs-products__container {
+  display: flex;
+  justify-content: space-between;
+}
+.bs-products .bs-products__container .card {
+  max-width: 268px;
+  width: 100%;
+}
+.bs-products .bs-products__container .bs-products__aside strong {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.bs-products .bs-products__container .bs-products__aside ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-top: 16px;
+}
+.bs-products .bs-products__container .bs-products__aside ul a {
+  color: rgb(106, 152, 60);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+.bs-products .bs-products__container .bs-products__aside button {
+  max-width: 179px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  margin-top: 48px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(245, 245, 245);
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+.bs-products .bs-products__container .bs-products__card {
+  padding: 16px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+}
+.bs-products .bs-products__container .bs-products__card .rectangle {
+  max-width: 237px;
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  background: rgb(249, 249, 249);
+}
+.bs-products .bs-products__container .bs-products__card .rectangle span {
+  display: inline-block;
+  margin: 12px 0 0 12px;
+  padding: 0 8px;
+  border-radius: 12px;
+  background: rgb(244, 248, 236);
+  color: rgb(106, 152, 60);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.bs-products .bs-products__container .bs-products__card strong {
+  display: inline-block;
+  margin-top: 16px;
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.bs-products .bs-products__container .bs-products__card small {
+  display: inline-block;
+  margin-top: 4px;
+  color: rgb(87, 87, 87);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.bs-products .bs-products__container .bs-products__card .buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.bs-products .bs-products__container .bs-products__card .buy .buy-in {
+  display: flex;
+  flex-direction: column;
+}
+.bs-products .bs-products__container .bs-products__card .buy .buy-in span {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.bs-products .bs-products__container .bs-products__card .buy .buy-in del {
+  color: rgb(169, 169, 169);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bs-products .bs-products__container .bs-products__card .buy button {
+  max-width: 90px;
+  width: 100%;
+  max-height: 36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0;
+  border: 2px solid rgb(70, 118, 10);
+  border-radius: 12px;
+  background: rgb(106, 152, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.bf-farmers {
+  width: 100%;
+  padding: 64px 45px;
+}
+.bf-farmers .bf-farmers__container {
+  display: flex;
+  justify-content: space-between;
+}
+.bf-farmers .bf-farmers__container .card {
+  max-width: 268px;
+  width: 100%;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__aside strong {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__aside ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-top: 16px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__aside ul a {
+  color: rgb(106, 152, 60);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__aside button {
+  max-width: 179px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  margin-top: 48px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(245, 245, 245);
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card {
+  padding: 16px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .rectangle {
+  max-width: 237px;
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  background: rgb(249, 249, 249);
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .rectangle span {
+  display: inline-block;
+  margin: 12px 0 0 12px;
+  padding: 0 8px;
+  border-radius: 12px;
+  background: rgb(244, 248, 236);
+  color: rgb(106, 152, 60);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card strong {
+  display: inline-block;
+  margin-top: 16px;
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card small {
+  display: inline-block;
+  margin-top: 4px;
+  color: rgb(87, 87, 87);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .buy .buy-in {
+  display: flex;
+  flex-direction: column;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .buy .buy-in span {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .buy .buy-in del {
+  color: rgb(169, 169, 169);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bf-farmers .bf-farmers__container .bf-farmers__card .buy button {
+  max-width: 90px;
+  width: 100%;
+  max-height: 36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0;
+  border: 2px solid rgb(70, 118, 10);
+  border-radius: 12px;
+  background: rgb(106, 152, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.oc-says {
+  width: 100%;
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 36px;
+}
+.oc-says .oc-says__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.oc-says .oc-says__top strong {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.oc-says .oc-says__top button {
+  max-width: 98px;
+  width: 100%;
+  max-height: 35px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  color: rgb(21, 21, 21);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+.oc-says .oc-says__bottom {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  margin-top: 36px;
+}
+.oc-says .oc-says__bottom .oc-says__card {
+  max-width: 369px;
+  width: 100%;
+  height: 198px;
+  padding: 24px 0;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oc-says .oc-says__bottom .oc-says__card p {
+  max-width: 305px;
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+}
+.oc-says .oc-says__bottom .oc-says__card span {
+  display: inline-block;
+  color: rgb(169, 169, 169);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 24px;
+}
+.oc-says .oc-says__bottom .oc-says__card img {
+  position: absolute;
+  bottom: -24px;
+}
+
+.s-headline {
+  width: 100%;
+  padding: 64px 45px;
+}
+.s-headline .s-headline__container .s-headline__top {
+  display: flex;
+  justify-content: space-between;
+}
+.s-headline .s-headline__container .s-headline__top strong {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.s-headline .s-headline__container .s-headline__top button {
+  max-width: 98px;
+  width: 100%;
+  max-height: 35px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  color: rgb(21, 21, 21);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
+}
+.s-headline .s-headline__container .s-headline__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.s-headline .s-headline__container .s-headline__bottom .card {
+  max-width: 268px;
+  width: 100%;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card {
+  padding: 16px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .rectangle {
+  max-width: 237px;
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  background: rgb(249, 249, 249);
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .rectangle span {
+  display: inline-block;
+  margin: 12px 0 0 12px;
+  padding: 0 8px;
+  border-radius: 12px;
+  background: rgb(244, 248, 236);
+  color: rgb(106, 152, 60);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card strong {
+  display: inline-block;
+  margin-top: 16px;
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card small {
+  display: inline-block;
+  margin-top: 4px;
+  color: rgb(87, 87, 87);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .buy .buy-in {
+  display: flex;
+  flex-direction: column;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .buy .buy-in span {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .buy .buy-in del {
+  color: rgb(169, 169, 169);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.s-headline .s-headline__container .s-headline__bottom .s-headline__card .buy button {
+  max-width: 90px;
+  width: 100%;
+  max-height: 36px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0;
+  border: 2px solid rgb(70, 118, 10);
+  border-radius: 12px;
+  background: rgb(106, 152, 60);
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
